@@ -1,0 +1,143 @@
+/* start global */
+
+*{box-sizing: border-box}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.clearfix{clear: both}
+
+/* end global */
+
+/* start navbar */
+
+.navbar{background-color:#003580;}
+
+.navbar .logo{  
+    float: left;
+    width: 30%;
+}
+
+.navbar .logo img{
+    
+   height: 75px;
+    width: 95px;
+    float: left
+}
+.navbar .logo h3{
+    float: left;
+    color: #ffffff;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:60%;
+     
+}
+
+.navbar ul li{
+    float: left;
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 7px 10px 7px 10px;
+    
+}
+.navbar ul li a:hover{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 20px
+}
+
+.navbar ul li a.active{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 20px
+}
+
+.dropdown {
+  
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #003580;
+  min-width: 135px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 7px 10px 7px 10px;
+}
+
+.dropdown-content a:hover {background-color: #74c7d5}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navbar  i{
+    float: right;
+    color: white;
+    padding: 25px 15px 7px 15px;
+}
+.navbar .fa-toggle-on{display: none;}
+.navbar  i:hover{color:#74c7d5 }
+/* end navbar */
+.title{text-align: center}
+.gallery {
+    width: 31.333%;
+    height: 325px;
+    margin: 1%;
+    display: none;
+    border: 0px solid #ccc;
+float: left;
+
+
+  }
+  div.gallery img{
+
+    width:300px;
+    height: 300px;
+    border-radius: 5px
+  }
+  .text{
+font-style: normal;
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* start footer */
+.footer{
+    position: relative;
+    bottom: 0;
+    margin-top:25px;
+    width: 100%;
+    height:150px;
+    background-color: #404040;
+    text-align: center;
+    color: white;
+    padding-top: 30px
+}
+
+.footer a{
+    color: white;
+    font-size: 30px
+}
+.footer a:hover{color: #0040ff}
+
+/* end footer */
